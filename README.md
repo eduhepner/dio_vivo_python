@@ -1,2 +1,2 @@
-# dio_vivo_python
-DIO - Bootcamp Coding The Future Vivo - Python AI Backend Developer
+# DIO - Bootcamp Coding The Future Vivo - Python AI Backend Developer
+Repositório de desafios e estudos do bootcamp.
