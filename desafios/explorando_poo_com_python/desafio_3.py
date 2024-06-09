@@ -9,10 +9,8 @@ class UsuarioTelefone:
     def fazer_chamada(self, destinatario, duracao):
 # TODO: Calcule o custo da chamada usando o método 'custo_chamada' do objeto 'plano':
         custo = self.plano.custo_chamada(duracao) ####
-        print(custo)
 # TODO: Verifique se o saldo do plano é suficiente para a chamada.
         verificado = self.plano.suficiente(custo) ####
-        print(verificado)
 # TODO: Se o saldo for suficiente, deduz o custo da chamada do saldo do plano.
         saldo = self.plano.deduzir_saldo(custo)
 # TODO: E retorne uma mensagem de sucesso com o destinatário e o saldo restante após a chamada:
@@ -64,10 +62,5 @@ destinatario = input()
 duracao = int(input())
 
 # Chama o método fazer_chamada do objeto usuario_pre_pago e imprime o resultado:
-print(usuario_pre_pago.verificar_saldo)
 print(usuario_pre_pago.fazer_chamada(destinatario, duracao))
-print(usuario_pre_pago.verificar_saldo)
-print(usuario_pre_pago.fazer_chamada(destinatario, duracao))
-print(usuario_pre_pago.verificar_saldo)
-print(usuario_pre_pago.fazer_chamada(destinatario, duracao))
-print(usuario_pre_pago.verificar_saldo)
+# print(usuario_pre_pago.verificar_saldo)
